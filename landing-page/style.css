@@ -16,13 +16,13 @@ header img{
 
 .menu{
     display: flex;
-    font-size: 25px;
 }
 
 
 .menu li{
     padding-right: 145px;
     list-style: none;
+    font-size: 25px;
 }
 
 .menu li a{
@@ -80,4 +80,38 @@ header img{
 .empashis-text button a:visited{
     color: none;
     text-decoration: none;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 992px) { 
+    .header{
+        width: 100%;
+    }
+
+    .menu li {
+        padding-right: 100px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1252px) { 
+    .menu li {
+        padding-right: 90px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 849px) { 
+    .menu li {
+        padding-right: 80px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 585px) and (max-width: 699px) { 
+    .menu li {
+        padding-right: 60px;
+        font-size: 14px;
+    }
 }
