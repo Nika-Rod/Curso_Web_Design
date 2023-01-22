@@ -1,0 +1,83 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+header img{
+    width: 20%;
+}
+
+.menu{
+    display: flex;
+    font-size: 25px;
+}
+
+
+.menu li{
+    padding-right: 145px;
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu a:active{
+    color: #fff;
+}
+
+.emphasis {
+    background-size: contain;
+    padding: 28%;
+    width: 77%;
+    margin: auto;
+    background-position-x: 30rem;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.container{
+    margin-left: -20rem;
+    color: #fff;
+}
+
+.empashis-text{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+}
+
+.empashis-text h1{
+    font-size: 95px;
+    margin-bottom: 0px;
+}
+
+.empashis-text span{
+    font-size: 75px;
+}
+
+.empashis-text button{
+    font-size: 55px;
+    width: 65%;
+}
+
+.empashis-text button:hover{
+   color: #fff;
+   background-color: grey;
+   border: none;
+   transition: background-color .5s, color .5s;
+}
+
+.empashis-text button a:visited{
+    color: none;
+    text-decoration: none;
+}
