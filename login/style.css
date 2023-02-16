@@ -21,15 +21,66 @@ fieldset{
     border-radius: 20px;
 }
 
+fieldset img{
+    width: 100px;
+    display: block;
+    padding: 20px 52px;
+}
+
+fieldset img:hover{
+    width: 120px;
+    transition: width .5s;
+}
+
 legend{
-    margin-bottom: 15px;
     text-align: center;
+}
+
+.email:hover{
+    font-size: 15px;
+    transition: font-size .5s;
 }
 
 .email-input{
     margin-bottom: 20px;
+    border-radius: 5px;
+    width: 195px;
+}
+
+.email input:hover{
+    height: 30px;
+    transition: height 2s ease-in-out;
+}
+
+.password:hover{
+    font-size: 15px;
+    transition: font-size .5s;
 }
 
 .password-input{
-    margin-bottom: 25px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    width: 195px;
+}
+
+.password input:hover{
+    height: 30px;
+    transition: height 2s ease-in-out;
+}
+
+.save{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px
+}
+
+.label-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.label-btn input:hover{
+    width: 75px;
+    font-size: 18px;
+    transition: font-size .4s;
 }
